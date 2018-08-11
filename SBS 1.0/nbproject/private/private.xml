@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="302">
+        <file>
+            <url>src/SBS/CopyTmp.java</url>
+            <bookmark id="45">
+                <name/>
+                <line>76</line>
+                <key/>
+            </bookmark>
+            <bookmark id="46">
+                <name/>
+                <line>129</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/SrvInfoCheckThread.java</url>
+            <bookmark id="264">
+                <name/>
+                <line>179</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/DownloadGUI.java</url>
+            <bookmark id="204">
+                <name/>
+                <line>103</line>
+                <key/>
+            </bookmark>
+            <bookmark id="203">
+                <name/>
+                <line>310</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/FolderChooser.java</url>
+            <bookmark id="121">
+                <name/>
+                <line>294</line>
+                <key/>
+            </bookmark>
+            <bookmark id="1">
+                <name/>
+                <line>339</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/MainGUI.java</url>
+            <bookmark id="236">
+                <name/>
+                <line>238</line>
+                <key/>
+            </bookmark>
+            <bookmark id="249">
+                <name/>
+                <line>310</line>
+                <key/>
+            </bookmark>
+            <bookmark id="137">
+                <name/>
+                <line>394</line>
+                <key/>
+            </bookmark>
+            <bookmark id="128">
+                <name/>
+                <line>706</line>
+                <key/>
+            </bookmark>
+            <bookmark id="132">
+                <name/>
+                <line>706</line>
+                <key/>
+            </bookmark>
+            <bookmark id="133">
+                <name/>
+                <line>706</line>
+                <key/>
+            </bookmark>
+            <bookmark id="57">
+                <name/>
+                <line>748</line>
+                <key/>
+            </bookmark>
+            <bookmark id="122">
+                <name/>
+                <line>786</line>
+                <key/>
+            </bookmark>
+            <bookmark id="127">
+                <name/>
+                <line>916</line>
+                <key/>
+            </bookmark>
+            <bookmark id="126">
+                <name/>
+                <line>916</line>
+                <key/>
+            </bookmark>
+            <bookmark id="247">
+                <name/>
+                <line>2406</line>
+                <key/>
+            </bookmark>
+            <bookmark id="38">
+                <name/>
+                <line>2456</line>
+                <key/>
+            </bookmark>
+            <bookmark id="34">
+                <name/>
+                <line>2456</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/MountDeviceGUI.java</url>
+            <bookmark id="17">
+                <name/>
+                <line>23</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/UpdateHistory.java</url>
+            <bookmark id="99">
+                <name/>
+                <line>122</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/CopyToDestination.java</url>
+            <bookmark id="55">
+                <name/>
+                <line>46</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/StartDevice.java</url>
+            <bookmark id="196">
+                <name/>
+                <line>90</line>
+                <key/>
+            </bookmark>
+            <bookmark id="50">
+                <name/>
+                <line>102</line>
+                <key/>
+            </bookmark>
+            <bookmark id="100">
+                <name/>
+                <line>181</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/DaysLimit.java</url>
+            <bookmark id="74">
+                <name/>
+                <line>96</line>
+                <key/>
+            </bookmark>
+            <bookmark id="7">
+                <name/>
+                <line>414</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/ZipBackup.java</url>
+            <bookmark id="89">
+                <name/>
+                <line>44</line>
+                <key/>
+            </bookmark>
+            <bookmark id="51">
+                <name/>
+                <line>161</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/SendFile.java</url>
+            <bookmark id="283">
+                <name/>
+                <line>122</line>
+                <key/>
+            </bookmark>
+            <bookmark id="282">
+                <name/>
+                <line>122</line>
+                <key/>
+            </bookmark>
+            <bookmark id="284">
+                <name/>
+                <line>122</line>
+                <key/>
+            </bookmark>
+            <bookmark id="301">
+                <name/>
+                <line>128</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/DestinationFolder.java</url>
+            <bookmark id="2">
+                <name/>
+                <line>225</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/SBS/BackupPath.java</url>
+            <bookmark id="120">
+                <name/>
+                <line>179</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/nicho/OneDrive/Software/NetBeans%20OneDrive/SBS%201.0/src/SBS/UpdateHistory.java</file>
+        </group>
+    </open-files>
+</project-private>
