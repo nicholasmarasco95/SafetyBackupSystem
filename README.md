@@ -7,14 +7,14 @@
 This software runs in all Java-supported platforms, however it has some features that work in Windows environment only. The Client will copy selected files on a temporary folder, it'll zip them and, depending on what user had choosen, SBS will send the file to Server or Store it to another destination.
 
 
-##Client Instructions
-###First run
+## Client Instructions
+### First run
 When a user run for the first time SBS, he must check if  **Server Info** is correctly set. It is a URL where the software will take the crypted information to parse (IP and ports).
 	-------------SERVER INFO SCREEN-------------
 **Login**
 Once "Server Info" is set, the user must login to be recognized by server. He must click on **User Info** and then enter User Code and Password (User must be registered into server database).
 	-------------LOGIN SCREEN-------------
-###Device Backup
+### Device Backup
 In Device Panel the user had a summary of backup status, and he can manage settings for this backup type.
 **Backup Folder**
 The user can choose the folders to backup.
