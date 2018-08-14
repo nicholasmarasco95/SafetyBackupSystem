@@ -10,7 +10,7 @@ This software runs in all Java-supported platforms, however it has some features
 ## Client Instructions
 ![GitHub Logo](pictures/home.png)
 ### First run
-When a user run for the first time SBS, he must check if  **Server Info** is correctly set. It is a URL where the software will take the crypted information to parse (IP and ports).	
+When a user run for the first time SBS, he must check if  **Server Info** is correctly set. It is a URL where the software will take the crypted information to parse (IP and ports).
 ![GitHub Logo](pictures/server_info.png)
 **Login**
 Once "Server Info" is set, the user must login to be recognized by server. He must click on **User Info** and then enter User Code and Password (User must be registered into server database).
