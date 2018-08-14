@@ -15,6 +15,7 @@ When a user run for the first time SBS, he must check if  **Server Info** is cor
 ![GitHub Logo](pictures/server_info.png)
 
 **Login**
+
 Once "Server Info" is set, the user must login to be recognized by server. He must click on **User Info** and then enter User Code and Password (User must be registered into server database).
 
 ![GitHub Logo](pictures/user_info.png)
