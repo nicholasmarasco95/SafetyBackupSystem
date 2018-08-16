@@ -33,11 +33,33 @@ The user can choose folders to backup. **Sync Device/Server Backup** is a featur
 ![GitHub Logo](pictures/folder_backup.png)
 
 **Folder Destination**
+
 The user must choose folder destination. It could be in a external device or into PC hard drive.
 
 ![GitHub Logo](pictures/folder_destination.png)
 
 **Storage Limit**
+
 This feature prevents to overload device memory, by deleting oldests backups. User can set a fixed storage limit or **Autofree** feature, which will automatically calculate the available space to store max number of backup.
 
 ![GitHub Logo](pictures/storage_limit.png)
+
+### Server Backup
+
+![GitHub Logo](pictures/server_backup.png)
+
+In "Server" uset has a check panel, where he can manage settings for this backup type.
+**Backup Folder** works like "Device Backup".
+
+**Download Backup**
+
+User can download from server one of his backup. He must click on "Refresh" to get the list of available files, then he must select a backup and press "Download". Finally, the user will choose a path where the file will be saved.
+
+![GitHub Logo](pictures/download_backup.png)
+
+
+**History**
+
+To check backup history, the user must click "Refresh"
+
+![GitHub Logo](pictures/history.png)
