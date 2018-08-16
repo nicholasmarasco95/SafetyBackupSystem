@@ -21,6 +21,23 @@ Once "Server Info" is set, the user must login to be recognized by server. He mu
 ![GitHub Logo](pictures/user_info.png)
 
 ### Device Backup
-In Device Panel the user had a summary of backup status, and he can manage settings for this backup type.
+
+![GitHub Logo](pictures/device_backup.png)
+
+In "Device" user has a check panel, where he can manage settings for this backup type.
+
 **Backup Folder**
-The user can choose the folders to backup.
+
+The user can choose folders to backup. **Sync Device/Server Backup** is a feature that allows the software to use same file previously zipped to be managed by Server and Device backup.
+
+![GitHub Logo](pictures/folder_backup.png)
+
+**Folder Destination**
+The user must choose folder destination. It could be in a external device or into PC hard drive.
+
+![GitHub Logo](pictures/folder_destination.png)
+
+**Storage Limit**
+This feature prevents to overload device memory, by deleting oldests backups. User can set a fixed storage limit or **Autofree** feature, which will automatically calculate the available space to store max number of backup.
+
+![GitHub Logo](pictures/storage_limit.png)
