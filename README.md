@@ -118,5 +118,5 @@ User can choose weekday and hour of backup.
 Like Client, the Server works in all Java-supported platforms, however it has some features that works in Windows environment only. Server's task is to add new users, check incoming user connections, check license and store backup sent by client.
 
 ## Server Instructions
-![GitHub Logo](pictures/server.png)
+![GitHub Logo](pictures/home.png)
 ### First run
