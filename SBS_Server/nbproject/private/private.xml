@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="83">
+        <file>
+            <url>src/Server/CmrFileManager.java</url>
+            <bookmark id="31">
+                <name/>
+                <line>284</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Server/DaysLimit.java</url>
+            <bookmark id="57">
+                <name/>
+                <line>86</line>
+                <key/>
+            </bookmark>
+            <bookmark id="59">
+                <name/>
+                <line>87</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Server/CmrFolderManager.java</url>
+            <bookmark id="19">
+                <name/>
+                <line>50</line>
+                <key/>
+            </bookmark>
+            <bookmark id="61">
+                <name/>
+                <line>56</line>
+                <key/>
+            </bookmark>
+            <bookmark id="63">
+                <name/>
+                <line>59</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Server/AddUserGUI.java</url>
+            <bookmark id="24">
+                <name/>
+                <line>358</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Server/ServerThread.java</url>
+            <bookmark id="12">
+                <name/>
+                <line>36</line>
+                <key/>
+            </bookmark>
+            <bookmark id="45">
+                <name/>
+                <line>101</line>
+                <key/>
+            </bookmark>
+            <bookmark id="44">
+                <name/>
+                <line>103</line>
+                <key/>
+            </bookmark>
+            <bookmark id="64">
+                <name/>
+                <line>117</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Server/MainServer.java</url>
+            <bookmark id="28">
+                <name/>
+                <line>70</line>
+                <key/>
+            </bookmark>
+            <bookmark id="29">
+                <name/>
+                <line>90</line>
+                <key/>
+            </bookmark>
+            <bookmark id="50">
+                <name/>
+                <line>158</line>
+                <key/>
+            </bookmark>
+            <bookmark id="23">
+                <name/>
+                <line>1153</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Server/ServerConnect.java</url>
+            <bookmark id="11">
+                <name/>
+                <line>74</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
+    </open-files>
+</project-private>
