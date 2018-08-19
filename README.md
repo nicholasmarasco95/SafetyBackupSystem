@@ -4,7 +4,7 @@
 
 
 # Client
-This software runs in all Java-supported platforms, however it has some features that work in Windows environment only. The Client will copy selected files on a temporary folder, it'll zip them and, depending on what user had choosen, SBS will send the file to Server or Store it to another destination.
+This software runs in all Java-supported platforms, however it has some features that works in Windows environment only. The Client will copy selected files on a temporary folder, it'll zip them and, depending on what user had choosen, SBS will send the file to Server or Store it to another destination.
 
 
 ## Client Instructions
@@ -111,3 +111,12 @@ If enabled SBS will automatically start backup.
 ![GitHub Logo](pictures/autopilot_settings.png)
 
 User can choose weekday and hour of backup.
+
+
+
+# Server
+Like Client, the Server works in all Java-supported platforms, however it has some features that works in Windows environment only. Server's task is to add new users, check incoming user connections, check license and store backup sent by client.
+
+## Server Instructions
+![GitHub Logo](pictures/server.png)
+### First run
