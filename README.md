@@ -75,13 +75,17 @@ In "Home" the user has a check panel where he can modify general settings.
 
 This features allows SBS to automatically start after Windows login. If enabled, SBS will copy a link into Windows startup folder. Auto start works if there is a link in running folder named "SBS_1.0" (It's important to not add ".jar").
 
-**Start Minimized**
-
-If checked SBS will start directly in system tray.
-
 **Restart PC and Shutdown PC after backup**
 
 Restart/Shutdown PC when backup is completed.
+
+**Windows Features**
+
+"Auto Start" and "Restart/Shutdown PC" features works in Windows environment only.
+
+**Start Minimized**
+
+If checked SBS will start directly in system tray.
 
 **Copy History**
 
@@ -102,8 +106,8 @@ If enabled SBS will be protected by a password to prevent settings changes by ot
 
 If enabled SBS will automatically start backup.
 
-![GitHub Logo](pictures/autopilot_settings.png)
-
 **Autopilot Settings**
+
+![GitHub Logo](pictures/autopilot_settings.png)
 
 User can choose weekday and hour of backup.
