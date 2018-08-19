@@ -63,3 +63,47 @@ User can download from server one of his backup. He must click on "Refresh" to g
 To check backup history, the user must click "Refresh"
 
 ![GitHub Logo](pictures/history.png)
+
+
+### Home Check Panel
+
+![GitHub Logo](pictures/home_check_panel.png)
+
+In "Home" the user has a check panel where he can modify general settings.
+
+**Auto start**
+
+This features allows SBS to automatically start after Windows login. If enabled, SBS will copy a link into Windows startup folder. Auto start works if there is a link in running folder named "SBS_1.0" (It's important to not add ".jar").
+
+**Start Minimized**
+
+If checked SBS will start directly in system tray.
+
+**Restart PC and Shutdown PC after backup**
+
+Restart/Shutdown PC when backup is completed.
+
+**Copy History**
+
+![GitHub Logo](pictures/copyhistory.png)
+
+Allows user to have a copy of backup history in another folder. It will be updated after each backup.
+
+**SBS Password**
+
+![GitHub Logo](pictures/newpassword.png)
+
+If enabled SBS will be protected by a password to prevent settings changes by other users.
+
+
+### Autopilot
+
+![GitHub Logo](pictures/autopilot.png)
+
+If enabled SBS will automatically start backup.
+
+![GitHub Logo](pictures/autopilot_settings.png)
+
+**Autopilot Settings**
+
+User can choose weekday and hour of backup.
