@@ -48,7 +48,7 @@ This feature prevents to overload device memory, by deleting oldests backups. Us
 
 ![GitHub Logo](pictures/server_backup.png)
 
-In "Server" uset has a check panel, where he can manage settings for this backup type.
+In "Server" user has a check panel, where he can manage settings for this backup type.
 **Backup Folder** works like "Device Backup".
 
 **Download Backup**
@@ -120,3 +120,47 @@ Like Client, the Server works in all Java-supported platforms, however it has so
 ## Server Instructions
 ![GitHub Logo](pictures/server_home.png)
 ### First run
+User must set "Connection Port" and "File Port" in **Server Settings** (click "Save" button to complete operation).
+
+![GitHub Logo](pictures/server_settings.png)
+
+Note: if there is not internet connection, the Server cannot get public IP address, as shown in previous picture (privacy purpose).
+
+### Main Settings
+In this panel user can manage "Auto Start", "Start minimized", "Lock Password" (same Client features) and "Auto Online".
+
+**Storage Limit**
+
+This feature allows to set max storage limit per user. When client's folder exceeds storage limit, the Server will delete oldest backup. When "Storage Limit" settings is changed, it's important to update Server Info HTML file (see below).
+
+![GitHub Logo](pictures/storage_limit_server.png)
+
+### Customers
+In this panel user can check (by clicking "Refresh") and manage registered clients.
+
+![GitHub Logo](pictures/user_table.png)
+
+**User**
+It is the user code automatically assigned by Server, it will be useful to login in Client Software.
+
+**Expiry Date"
+It is the date in which the Client Software of that user will be locked until it will be update by Server.
+
+**Password**
+It is the password that will be use to login in Client Software
+
+**MAC**
+Every time a Client connects to Server, it communicate the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. It prevents that a user can use it's license in more PCs simultanely.
+
+**Add User**
+
+![GitHub Logo](pictures/add_user.png)
+
+To add a client it's required to fill all fields, including **Expire Date** (to add one year from current date just click "Add One Year" button, otherwise add date manually). Once "Add User" button is clicked, a message will show "User Code" of the new User.
+
+**Update User**
+
+![GitHub Logo](pictures/update_user.png)
+
+To change or update user infos, just click on user's row and then click on "Update User" button.
+
