@@ -141,15 +141,19 @@ In this panel user can check (by clicking "Refresh") and manage registered clien
 ![GitHub Logo](pictures/user_table.png)
 
 **User**
+
 It is the user code automatically assigned by Server, it will be useful to login in Client Software.
 
-**Expiry Date"
+**Expiry Date**
+
 It is the date in which the Client Software of that user will be locked until it will be update by Server.
 
 **Password**
+
 It is the password that will be use to login in Client Software
 
 **MAC**
+
 Every time a Client connects to Server, it communicate the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. It prevents that a user can use it's license in more PCs simultanely.
 
 **Add User**
