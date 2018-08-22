@@ -142,19 +142,19 @@ In this panel user can check (by clicking "Refresh") and manage registered clien
 
 **User**
 
-It is the user code automatically assigned by Server, it will be useful to login in Client Software.
+It is user code automatically assigned by Server, it is useful to login in Client Software.
 
 **Expiry Date**
 
-It is the date in which the Client Software of that user will be locked until it will be update by Server.
+Each Client has a temporary licence. When a user exceeds "Expiry Date", the Client Software will be locked down, until the users database will be updated with a new date.
 
 **Password**
 
-It is the password that will be use to login in Client Software
+It is the password that will be used to login in Client Software
 
 **MAC**
 
-Every time a Client connects to Server, it communicate the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. It prevents that a user can use it's license in more PCs simultanely.
+Every time a Client connects to Server, it communicate the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. With this feature a user cannot share his licence to other users.
 
 **Add User**
 
@@ -168,3 +168,9 @@ To add a client it's required to fill all fields, including **Expire Date** (to 
 
 To change or update user infos, just click on user's row and then click on "Update User" button.
 
+### Remote Settings
+In this panel user can set the password that will be used in **Remote Software** to remotely access in Server. There is a button to switch on/off this feature.
+
+![GitHub Logo](pictures/remote_settings_server.png)
+
+### Server History
