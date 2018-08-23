@@ -129,6 +129,10 @@ Note: if there is not internet connection, the Server cannot get public IP addre
 ### Main Settings
 In this panel user can manage "Auto Start", "Start minimized", "Lock Password" (same Client features) and "Auto Online".
 
+**Start**
+
+To make Server online the user must click on "Start" button.
+
 **Storage Limit**
 
 This feature allows to set max storage limit per user. When client's folder exceeds storage limit, the Server will delete oldest backup. When "Storage Limit" settings is changed, it's important to update Server Info HTML file (see below).
@@ -169,8 +173,13 @@ To add a client it's required to fill all fields, including **Expire Date** (to 
 To change or update user infos, just click on user's row and then click on "Update User" button.
 
 ### Remote Settings
-In this panel user can set the password that will be used in **Remote Software** to remotely access in Server. There is a button to switch on/off this feature.
 
 ![GitHub Logo](pictures/remote_settings_server.png)
 
+In this panel user can set the password that will be used in **Remote Software** to remotely access in Server. There is a button to switch on/off this feature.
+
 ### Server History
+
+![GitHub Logo](pictures/server_history.png)
+
+To check user's history enter "User Code" and press "Show" button.
