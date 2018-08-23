@@ -4,7 +4,7 @@
 
 
 # Client
-This software runs in all Java-supported platforms, however it has some features that work in Windows environment only. The Client will copy selected files on a temporary folder, it'll zip them and, depending on what user had choosen, SBS will send the file to Server or Store it to another destination.
+This software runs in all Java-supported platforms, however it has some features that works in Windows environment only. The Client will copy selected files on a temporary folder, it'll zip them and, depending on what user had choosen, SBS will send the file to Server or Store it to another destination.
 
 
 ## Client Instructions
@@ -48,7 +48,7 @@ This feature prevents to overload device memory, by deleting oldests backups. Us
 
 ![GitHub Logo](pictures/server_backup.png)
 
-In "Server" uset has a check panel, where he can manage settings for this backup type.
+In "Server" user has a check panel, where he can manage settings for this backup type.
 **Backup Folder** works like "Device Backup".
 
 **Download Backup**
@@ -111,3 +111,75 @@ If enabled SBS will automatically start backup.
 ![GitHub Logo](pictures/autopilot_settings.png)
 
 User can choose weekday and hour of backup.
+
+
+
+# Server
+Like Client, the Server works in all Java-supported platforms, however it has some features that works in Windows environment only. Server's task is to add new users, check incoming user connections, check license and store backup sent by client.
+
+## Server Instructions
+![GitHub Logo](pictures/server_home.png)
+### First run
+User must set "Connection Port" and "File Port" in **Server Settings** (click "Save" button to complete operation).
+
+![GitHub Logo](pictures/server_settings.png)
+
+Note: if there is not internet connection, the Server cannot get public IP address, as shown in previous picture (privacy purpose).
+
+### Main Settings
+In this panel user can manage "Auto Start", "Start minimized", "Lock Password" (same Client features) and "Auto Online".
+
+**Start**
+
+To make Server online the user must click on "Start" button.
+
+**Storage Limit**
+
+This feature allows to set max storage limit per user. When client's folder exceeds storage limit, the Server will delete oldest backup. When "Storage Limit" settings is changed, it's important to update Server Info HTML file (see below).
+
+![GitHub Logo](pictures/storage_limit_server.png)
+
+### Customers
+In this panel user can check (by clicking "Refresh") and manage registered clients.
+
+![GitHub Logo](pictures/user_table.png)
+
+**User**
+
+It is user code automatically assigned by Server, it is useful to login in Client Software.
+
+**Expiry Date**
+
+Each Client has a temporary licence. When a user exceeds "Expiry Date", the Client Software will be locked down, until the users database will be updated with a new date.
+
+**Password**
+
+It is the password that will be used to login in Client Software
+
+**MAC**
+
+Every time a Client connects to Server, it communicate the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. With this feature a user cannot share his licence to other users.
+
+**Add User**
+
+![GitHub Logo](pictures/add_user.png)
+
+To add a client it's required to fill all fields, including **Expire Date** (to add one year from current date just click "Add One Year" button, otherwise add date manually). Once "Add User" button is clicked, a message will show "User Code" of the new User.
+
+**Update User**
+
+![GitHub Logo](pictures/update_user.png)
+
+To change or update user infos, just click on user's row and then click on "Update User" button.
+
+### Remote Settings
+
+![GitHub Logo](pictures/remote_settings_server.png)
+
+In this panel user can set the password that will be used in **Remote Software** to remotely access in Server. There is a button to switch on/off this feature.
+
+### Server History
+
+![GitHub Logo](pictures/server_history.png)
+
+To check user's history enter "User Code" and press "Show" button.
