@@ -183,3 +183,39 @@ In this panel user can set the password that will be used in **Remote Software**
 ![GitHub Logo](pictures/server_history.png)
 
 To check user's history enter "User Code" and press "Show" button.
+
+
+
+# Remote
+**SBS Remote** works in all java-supported platforms. This app can remotely control the Server.
+
+### Actions
+In this panel user can remotely **Shutdown** or **Reboot** Server PC. **Restart SBS** will restart Server app. These features works if Server is running on Windows PC.
+
+![GitHub Logo](pictures/remote_sbs.png)
+
+### Info
+In this panel user can check "Server IP" and "Connection Port" in use.
+
+![GitHub Logo](pictures/remote_info.png)
+
+### HTML
+In this panel user can create encrypted html file to upload in a host. It will be decrypted by Client to get Server info (IP, Connection Port, Storage Limit).
+
+![GitHub Logo](pictures/html_creator_remote.png)
+
+**HTML Translator**
+
+User can decrypt html file.
+
+![GitHub Logo](pictures/html_translator_remote.png)
+
+### Settings
+To connect to Server user must enter **Server IP**, **Remote Port**, **Server Password** and click "Save" button.
+
+![GitHub Logo](pictures/remote_settings_remote.png)
+
+Note: For safety reason "Server Password" will not accept "0000"
+
+### User and History
+These two features works like Server's ones. The only difference is that in "Remote SBS" they works remotely.
