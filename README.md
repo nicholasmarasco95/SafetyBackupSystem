@@ -158,7 +158,7 @@ It is the password that will be used to login in Client Software
 
 **MAC**
 
-Every time a Client connects to Server, it communicate the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. With this feature a user cannot share his licence to other users.
+Every time a Client connects to Server, it communicates the PC's MAC address. If it changes for more that 3 times, the Client will be locked down until Server will reset this counter. With this feature a user cannot share his licence to other users.
 
 **Add User**
 
